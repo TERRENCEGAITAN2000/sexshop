@@ -251,16 +251,14 @@ section {
 .bigcontenedor{
     width: 100%;
     background-color:white;
-    padding: 40px 0px 20px 0px;
 }
 .grid-container {
     background-color: transparent;
     display: grid;
-    width: 90%;
-    padding: 10px 10px 10px 90px;
-    margin-left: 1%;
+    width:90%;
     grid-auto-columns: auto auto;
     grid-auto-rows: auto auto;
+    padding: 0% 0% 0% 10%;
 }
 .txt1{
     color: #465eff;
@@ -670,7 +668,6 @@ h2{
     background-color:transparent;
     position: relative;
     background-size: cover;
-    
 }
 #contxtcond{
     position: relative;
@@ -787,6 +784,7 @@ h2{
 }
 .lif{
     height: 80px;
+    padding: 2%;
 }
 .pagefoot ul {
     list-style: none;
@@ -801,6 +799,10 @@ h2{
     font: 12px;
     font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
+.tw{
+    width: 10%;
+    height: 10%;
+}
 .concont{
     width: auto;
     height: auto;
@@ -808,6 +810,17 @@ h2{
 }
 hr{
     width: 100%;
+}
+.padimg{
+    padding: 1px 1px 1px 1px;
+    width: 25%;
+    height: 15%;
+}
+.padimg1{
+    padding: 1px 1px 1px 1px;
+    width: 45%;
+    height:35%;
+    margin-top: 10%;
 }
 @media screen and (max-width: 415px){
 /**/
